@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/567d4e92b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>PelisOnline.com</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-film"></i>
+            <h2><a href="index.html">PelisOnline.com</a></h2>
+        </div>
+        <div class="buttons">
+            <div class="dropdown">
+                <button onclick="dropdown()" class="dropbtn">Genres: </button>
+                <div id="myDropdown" class="dropdown-content"></div>
+            </div>
+            <button type="button" id="topButton">Top Rated</button>
+            <button type="button" id="upcomingButton">Upcoming</button>
+            <button type="button" id="nowButton">Now Playing</button>
+            <form action="" id="searchForm">
+                <div class="search">
+                    <input type="text" placeholder='Type a movie...' name="searching" required>
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                </div>
+            </form>
+            <button type="button" id="reloadButton"><i class="bi bi-arrow-clockwise"></i> Reload</button>
+        </div>
+    </header>
+    <div id="app">
+        <!-- <div class="card">
+            <img src="https://pics.filmaffinity.com/chip_n_dale_rescue_rangers-335785940-large.jpg" alt="">
+            <div class="cardTitle">
+                <p>Los rescatadores (2022)</p>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

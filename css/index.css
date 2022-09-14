@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #021921;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 5%;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 18%;
+    padding: 5px;
+    background-color: #042734;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+
+img {
+    width: 100%;
+}
+p{
+    margin: 0;
+}
+
+.cardTitle {
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    margin: 5px;
+}
+
+header {
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo i{
+    margin-right: 4px;
+    color: #F3B900;
+}
+.buttons i{
+    margin-right: 4px;
+    color: #042734;
+}
+.logo a{
+    text-decoration: none;
+    color: white
+}
+.logo h2 {
+    color: white;
+}
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+}
+.genreName{
+    background-color: #021921;
+    color: #F3B900;
+    font-size: 12px;
+    padding: 2px 4px;
+    margin: 2px;
+    border-radius: 2px;
+}
+button{
+    background-color: #F3B900;
+    color: #042734;
+    border-radius: 2px;
+    border: none;
+    font-size: 14px;
+    padding: 10px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: #F3B900;
+    color: #042734;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #F3B900;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 2px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  .show {display:block;}
+
+  .buttons{
+      display: flex;
+      justify-content: center;
+  }
+
+  input{
+      padding: 10px 12px;
+      border: none;
+      border-radius: 2px;
+      font-size: 14px;
+  }
